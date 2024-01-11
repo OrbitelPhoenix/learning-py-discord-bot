@@ -1,3 +1,5 @@
+# un # lines 123 & 124 so .gitignore can exclood these file 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -120,8 +122,8 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
-.venv
+#.env
+#.venv
 env/
 venv/
 ENV/
