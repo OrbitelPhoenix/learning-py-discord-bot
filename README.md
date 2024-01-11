@@ -10,8 +10,6 @@ In this project, I aim to:
 - Gain hands-on experience with the Discord API
 - Develop an interactive Discord bot
 
-**Git Repository:** [Learning Python Discord Bot Repository](https://github.com/your-username/learning-py-discord-bot)
-
 ## Getting Started
 
 1. **Install Visual Studio Code or VSCodium:**
