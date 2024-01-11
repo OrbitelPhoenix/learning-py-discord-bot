@@ -10,16 +10,44 @@ In this project, I aim to:
 - Gain hands-on experience with the Discord API
 - Develop an interactive Discord bot
 
+**Git Repository:** [Learning Python Discord Bot Repository](https://github.com/your-username/learning-py-discord-bot)
+
 ## Getting Started
 
-1. Install Python and required dependencies
-2. Clone this repository
-3. Follow along with the code and documentation
-4. Contribute, ask questions, and enjoy the learning process!
+1. **Install Visual Studio Code or VSCodium:**
+   - Download and install Visual Studio Code or VSCodium from [Visual Studio Code website](https://code.visualstudio.com/) or [VSCodium website](https://vscodium.com/).
+
+2. **Install virtualenv:**
+   - Open the terminal in Visual Studio Code or VSCodium.
+   - Run the command: `pip install virtualenv`
+
+3. **Create a Virtual Environment:**
+   - In the terminal, navigate to your repository folder.
+   - Run the command: `virtualenv .venv`
+
+4. **Select Python Interpreter:**
+   - Press `Ctrl + Shift + P` to open the command palette.
+   - Search for "Python: Select Interpreter" and select it.
+   - Choose the `Python you version ('.venv)` interpreter.
+
+5. **Install Dependencies:**
+   - Close existing terminals and open a new one (ensure it's in the .venv folder).
+   - Run the commands:
+     ```
+     pip install discord.py[voice]
+     pip install python-dotenv
+     ```
+
+6. **Update .gitignore:**
+   - Open the .gitignore file.
+   - Uncomment lines 123 and 124 to include the .venv folder in your gitignore.
+
+Now, your environment is set up for developing the Discord bot using Python. Happy coding!
 
 ## Project Structure
-WIP
 
-Feel free to explore, contribute, and join me in this exciting journey of Python learning through Discord bot development.
-
-Happy coding!
+- **.env** 
+- **.gitignore**
+- **.README.md**
+- **main.py**
+- **settings.py**
