@@ -1,4 +1,4 @@
-#bot_Templatet
+#Beta Bot
 
 import logging
 import discord
