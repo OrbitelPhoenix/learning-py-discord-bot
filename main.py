@@ -1,4 +1,5 @@
-#Beta Bot
+#Beta Bot 0.5
+#Templet copy
 
 import logging
 import discord
