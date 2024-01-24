@@ -1,10 +1,10 @@
 #Beta Bot 0.5
 #Templet copy
 
-import logging
 import discord
 from discord.ext import commands
-import utils
+import logging
+import utils as utils_module
 
 import settings
 
@@ -17,17 +17,14 @@ def run():
 
     bot = commands.Bot(command_prefix="!", intents=intents)
 
-
     @bot.event
     async def on_ready():
         logging.info(f"User: {bot.user} (ID: {bot.user.id})")
         await utils.load_videocmds(bot)
 
-
     @bot.command()
     async def ping(ctx: commands.Context):
         await ctx.send("pong")
-
 
     bot.run(settings.DISCORD_API_SECRET, root_logger=True)
 
