@@ -26,7 +26,7 @@ In this project, I aim to:
 4. **Select Python Interpreter:**
    - Press `Ctrl + Shift + P` to open the command palette.
    - Search for "Python: Select Interpreter" and select it.
-   - Choose the `Python you version ('.venv)` interpreter.
+   - Choose `your Python version ('.venv)` interpreter.
 
 5. **Install Dependencies:**
    - Close existing terminals and open a new one (ensure it's in the .venv folder).
