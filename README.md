@@ -47,5 +47,6 @@ Now, your environment is set up for developing the Discord bot using Python. Hap
 - **.env** 
 - **.gitignore**
 - **.README.md**
+- **logs**
 - **main.py**
 - **settings.py**
