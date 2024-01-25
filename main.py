@@ -1,14 +1,22 @@
 #Beta Bot 0.5
 #Templet copy
 
+import unittest
 import discord
 from discord.ext import commands
+from contextlib import contxtmanager
+from unittest.mock import patch
 import logging
 
 import settings
 
 logger = logging.getLogger("bot")
 
+
+class Beta_Bot(unittest.TestCase):
+    def setUp(self):
+        self.bot = commands.Bot(command_prefix='!')
+        self.ctx = self.bot.get_context('dummy message')
 
 def run():
     intents = discord.Intents.default()
