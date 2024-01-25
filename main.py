@@ -4,11 +4,11 @@
 import unittest
 import discord
 from discord.ext import commands
-from contextlib import contxtmanager
+from contextlib import contextmanager
 from unittest.mock import patch
 import logging
 
-import settings
+import setting
 
 logger = logging.getLogger("bot")
 

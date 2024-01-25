@@ -1,5 +1,5 @@
 import os
-from logging.config import dicConfig
+from logging.config import dictConfig
 from dotenv import load_dotenv
 
 
