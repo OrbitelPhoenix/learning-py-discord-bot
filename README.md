@@ -1,5 +1,5 @@
-# Python Discord Bot Learning
-
+# Learning
+Learning Python wile making Discord Bot 
 Welcome to my Python learning journey! This repository is dedicated to building a Discord bot as I explore the world of programming and enhance my Python skills.
 
 ## Overview
